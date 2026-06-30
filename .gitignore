@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+
+# Vite cache
+.vite/
+
+# Environment configurations (secret keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Logs
+logs/
+*.log
+
+# Editor and System files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.tmp
+*.bak

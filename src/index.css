@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Main CSS entry point importing Tailwind and custom scrollbars */
+
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+  color: #f8fafc;
+  min-height: 100vh;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+/* Custom scrollbars for horizontal lists */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
