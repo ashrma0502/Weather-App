@@ -9,7 +9,7 @@ import SavedLocations from './components/SavedLocations';
 import SettingsPanel from './components/SettingsPanel';
 
 // Load OpenWeatherMap API Key from Vite env configuration
-const API_KEY = import.meta.env.OPENWEATHER_API_KEY;
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 
 // Main App container coordinating sidebar, header, and active tab viewports
 export default function App() {
